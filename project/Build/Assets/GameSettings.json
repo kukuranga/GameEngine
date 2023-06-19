@@ -1,0 +1,19 @@
+{
+  "GameEngine": {},
+  "SceneManager": {
+    "ScenesDirectory": "../Assets/",
+    "DefaultSceneIndex": 0,
+    "Scenes": [
+      "Scene_1",
+      "Scene_2"
+    ]
+  },
+  "RenderSystem": {
+    "Name": "Awesome Game",
+    "width": 1280,
+    "height": 720,
+    "fullscreen": false,
+    "defaultFontPath": "../Assets/Vogue.ttf",
+    "defaultTexturePath": "../Assets/Textures/default_texture.png"
+  }
+}

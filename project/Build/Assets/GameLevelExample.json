@@ -1,0 +1,38 @@
+{
+	"GameObjects": [
+		{
+			"name": "Taco",
+			"uid": "38b657e3-0b28-49b7-9e30-1f8869e219d6",
+			"position": {
+				"x": 400.0,
+				"y": 360.0
+			},
+			"components": [
+				{
+					"className": "Sprite",
+					"texture_filename": "../Assets/Textures/Taco.jpg",
+					"uid": "834cca6f-df29-4024-9b24-a7b51e33ae55"
+				}
+			]
+		},
+		{
+			"name": "Zombie",
+			"uid": "a4d059d2-3094-472f-afd2-62e2dc05ddaf",
+			"position": {
+				"x": 880.0,
+				"y": 360.0
+			},
+			"components": [
+				{
+					"className": "Sprite",
+					"uid": "4882b971-36c3-4a25-8d96-e2c95f9e3deb",
+					"texture_filename": "../Assets/Textures/zombie-head-icon.png"
+				},
+				{
+					"className": "Zombie",
+					"uid": "7b7c030d-c1e1-41cf-8c0c-af036690f9fd"
+				}
+			]
+		}
+	]
+}

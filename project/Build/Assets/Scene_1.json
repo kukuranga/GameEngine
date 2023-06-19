@@ -1,0 +1,131 @@
+{
+	"GameObjects": [
+		{
+			"name": "Taco",
+			"uid": "38b657e3-0b28-49b7-9e30-1f8869e219d6",
+			"components": [
+				{
+					"className": "Transform",
+					"uid": "48845971-3ad3-4a25-8d96-e2f95f9e3deb",
+					"position": {
+						"x": 880.0,
+						"y": 360.0
+					}
+				},
+				{
+					"className": "BoxCollider",
+					"uid": "48845971-3ad3-4a25-8d96-e2f95f9e3deb",
+					"rectangle_size" :
+					{
+						"x" : 630.0,
+						"y" : 630.0
+					}
+				},
+				{
+					"className": "Sprite",
+					"texture_filename": "../Assets/Textures/Taco.jpg",
+					"uid": "834cca6f-df29-4024-9b24-a7b51e33ae55"
+				}
+			]
+		},
+		{
+			"name": "Zombie",
+			"uid": "a4d059d2-3094-472f-afd2-62e2dc05ddaf",
+			"position": {
+				"x": 880.0,
+				"y": 360.0
+			},
+			"components": [
+				{
+					"className": "Transform",
+					"uid": "48845971-36c3-4a25-8d96-e2c95f9e3deb",
+					"position": {
+						"x": 880.0,
+						"y": 360.0
+					}
+				},
+				{
+					"className": "Sprite",
+					"uid": "4882b971-36c3-4a25-8d96-e2c95f9e3deb",
+					"texture_filename": "../Assets/Textures/zombie-head-icon.png"
+				},
+				{
+					"className": "BoxCollider",
+					"uid": "48845971-3ad3-4a25-8d96-e2f95f9e3deb",
+					"rectangle_size" :
+					{
+						"x" : 192.0,
+						"y" : 256.0
+					}
+				},
+				{
+					"className": "Zombie",
+					"uid": "7b7c030d-c1e1-41cf-8c0c-af036690f9fd"
+				},
+				{
+					"className": "PlayerController",
+					"uid": "7b7c030d-c1e1-41cf-8c0c-af036784f9fd",
+					"speed": 100.0,
+					"movement_type": "snapped"
+				}
+			]
+		},
+		{
+			"name": "Test",
+			"uid": "38b657e3-0b28-49b7-9e30-1f8869e219d6",
+			"components": [
+				{
+					"className": "Transform",
+					"uid": "48845971-3ad3-4a25-8d96-e2f95f9e3deb",
+					"position": {
+						"x": 400.0,
+						"y": 360.0
+					}
+				},
+				{
+					"className": "Text",
+					"uid": "4882b971-36c3-4a25-8d96-e2c95f9e3deb",
+					"fontSize": 40,
+					"fontColor": {
+						"r": 255,
+						"g": 0,
+						"b": 0,
+						"a": 255
+					},
+					"content": "Hello GDAP",
+					"origin": 0
+				}
+			]
+		},
+		{
+			"name": "Test2",
+			"uid": "38b657e3-0b28-49b7-9e30-1f8869e219d6",
+			"components": [
+				{
+					"className": "Transform",
+					"uid": "48845971-3ad3-4a25-8d96-e2f95f9e3deb",
+					"position": {
+						"x": 400.0,
+						"y": 300.0
+					}
+				},
+				{
+					"className": "Sprite",
+					"texture_filename": "../Assets/Textures/bat-move.png",
+					"uid": "834cca6f-df29-4024-9b24-a7b51e33ae55",
+					"startPosition": {
+						"x": 0,
+						"y": 0
+					},
+					"endPosition": {
+						"x": 256,
+						"y": 256
+					},
+					"width": 64,
+					"height": 64,
+					"interval": 0.5
+				}
+			]
+		}
+	]
+}
